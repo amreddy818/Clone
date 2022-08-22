@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+    background-color: black;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.main-header{
+    position: fixed;
+    display: flex;
+    width: 100%;
+    height: 100px;
+    text-transform: uppercase;
+    top: 0;
+    left: 0;
+}
+.logo{
+    height: 100%;
+    width: 250px;
+    padding-left: 10px;
+}
+.logo img{
+    height: 100%;
+    width: 250px;
+}
+.desktop_main_menu ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+}
+.desktop_main_menu li{
+    margin-left: 15px;
+}
+.A{
+    background-image: url("../images/section-a.webp");
+}
+.B{
+    background-image: url("../images/section-b.webp");
+}
+.C{
+    background-image: url("../images/section-c.webp");
+}
+.D{
+    background-image: url("../images/section-d.webp");
+}
+.E{
+    background-image: url("../images/section-e.webp");
+}
+.F{
+    background-image: url("../images/section-f.webp");
+}
+section{
+    top:0;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.inner{
+    color: white;
+    height: 100vh;
+    margin-left: 200px;
+    /* background-color: white; */
+    padding-top: 350px;
+}
+.inner h4{
+    font-size: 25px;
+    margin: 0;
+}
+.inner h2{
+    font-size: 50px;
+    margin: 0px;
+}
+.but{
+    width: max-content;
+    padding: 10px;
+    margin-left: 0px;
+    font-size: large;
+    border : 1px solid white;
+}
